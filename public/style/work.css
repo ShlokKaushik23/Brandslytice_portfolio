@@ -971,6 +971,8 @@ main {
   font-optical-sizing: auto;
   font-weight: 600;
   text-decoration: underline;
+  font-size: 1.1vw;
+
 }
 
 .project_container .filterDiv .project_section .image_container {
