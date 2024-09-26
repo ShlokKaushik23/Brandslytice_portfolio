@@ -2591,6 +2591,7 @@ main {
     /* width: calc(100% - 12px); */
     width: auto;
     height: 240px;
+    object-fit: cover;
      margin-right: 24px;
     border-radius: 0px;
   
