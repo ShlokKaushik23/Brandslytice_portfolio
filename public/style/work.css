@@ -11,7 +11,7 @@
 }
 
 @font-face {
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   src: url('../Satoshi-Medium.woff2') format('woff2'),
     url('../Satoshi-Medium.woff') format('woff'),
@@ -77,7 +77,7 @@ main {
 }
 
 .popup-box .detail {
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
   display: -webkit-box;
@@ -183,7 +183,7 @@ main {
   color: var(--color-secondary) !important;
   /* Text color for selected category */
   font-size: 1.25vw;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 }
 .category_section.sticky .category_button .btn:hover {
@@ -233,7 +233,7 @@ main {
 .header .navbar .nav_section.about .nav_list li {
   color: #7C7C7C;
   font-weight: 500;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   text-decoration: none;
   list-style: none;
@@ -244,7 +244,7 @@ main {
   list-style: none;
   padding-left: 24px;
   color: var(--color-white);
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
 }
@@ -386,7 +386,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   color: var(--color-white);
   z-index: 100;
@@ -445,7 +445,7 @@ main {
   font-size: 1.563vw;
   /* outline: 1px solid var(--color-white); */
   background-color: transparent;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   cursor: pointer;
   margin: 0 8px;
@@ -570,7 +570,7 @@ main {
   line-height: 16px;
   padding: 0 12px 0 0;
   font-weight: 500;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -582,7 +582,7 @@ main {
   line-height: 16px;
   font-weight: 550;
   padding: 0 0 0 12px;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -617,7 +617,7 @@ main {
   font-weight: var(--w-400);
   -o-text-overflow: clip;
      text-overflow: clip;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -669,7 +669,7 @@ main {
   border: 1.2px solid var(--color-secondary);
   position: relative;
   color: var(--color-secondary);
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   /* margin: 16px 0; */
   margin: 12px 0;
@@ -864,7 +864,7 @@ main {
   grid-area: 1 / 2 / 2 / 3;
   width: 100%;
   padding: 0 84px;
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.25vw;
   font-weight: 400;
@@ -961,7 +961,7 @@ main {
 .project_container .filterDiv .project_section .project_description .readMore_button {
   background-color: transparent;
   color: #121212;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   text-decoration: underline;
@@ -1096,7 +1096,7 @@ main {
 }
 
 .exp_container .content_section .description {
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-size: 1.25vw;
   position: relative;
@@ -1228,7 +1228,7 @@ main {
   color: #121212;
   font-weight: 500;
   margin: 6px 0 12px;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
 }
@@ -1469,7 +1469,7 @@ main {
   .header .navbar .nav_section.about .nav_list li {
     color: var(--color-white);
     font-weight: 700;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
   }
@@ -1535,20 +1535,20 @@ main {
 
   .category_section.sticky .category_button .btn {
     font-size: 2.083vw;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   }
 
   .category_section.sticky .filter_button button {
     color: #121212;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
   }
 
   .category_section .filter_button button {
     font-size: 2.083vw;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
     color: #fff;
     font-weight: 600;
@@ -1658,7 +1658,7 @@ main {
     margin-left: 0;
     margin-right: 0;
     font-size: 2.083vw;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
 
@@ -1673,7 +1673,7 @@ main {
     opacity: 1;
     font-size: 3.5vw;
     font-weight: var(--w-500);
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
   }
@@ -1710,7 +1710,7 @@ main {
     background-color: var(--background-color);
     color: var(--text-color);
     outline: none !important;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
 
@@ -1721,7 +1721,7 @@ main {
     background-color: #121212;
     color: #fff !important;
     outline: none !important;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
 
@@ -1741,7 +1741,7 @@ main {
     white-space: nowrap;
     color: #fff;
     font-size: 2.083vw;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   }
 
@@ -1802,7 +1802,7 @@ main {
   }
 
   .exp_container .content_section .description {
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
     font-size: 2.25vw;
   }
@@ -1897,7 +1897,7 @@ main {
     display: block;
     font-size: 2.25vw;
     margin: 6px 0 12px 0;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
   }
@@ -2050,7 +2050,7 @@ main {
   .header .navbar .nav_section.about .nav_list li {
     color: var(--color-white);
     font-weight: var(--w-500);
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
 
@@ -2135,7 +2135,7 @@ main {
 
   .category_section .filter_button button {
     font-size: 4vw;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
     color: #fff;
     font-weight: 600;
@@ -2155,7 +2155,7 @@ main {
   .category_section.sticky .filter_button button {
     background-color: transparent;
     color: #121212;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   }
 
@@ -2279,7 +2279,7 @@ main {
     opacity: 1;
     font-size: 2.5vw;
     font-weight: var(--w-500);
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
   }
@@ -2290,7 +2290,7 @@ main {
     opacity: 1;
     font-size: 4vw;
     font-weight: var(--w-500);
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
   }
@@ -2313,7 +2313,7 @@ main {
     font-size: 4vw;
     font-weight: var(--w-500);
     
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
   }
@@ -2327,7 +2327,7 @@ main {
     background-color: #121212;
     color: #fff;
     outline: none !important;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   }
 
@@ -2335,7 +2335,7 @@ main {
     background-color: #121212 !important;
     color: #fff !important;
     outline: none !important;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   }
 
@@ -2349,7 +2349,7 @@ main {
     white-space: nowrap;
     color: #fff;
     font-size: 4vw;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
     padding: 0;
   }
@@ -2357,7 +2357,7 @@ main {
   .category_section.sticky p {
     color: #121212;
     font-size: 4vw !important;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   }
 
@@ -2405,7 +2405,7 @@ main {
   }
 
   .exp_container .content_section .description {
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
     font-size: 4vw;
   }
@@ -2431,7 +2431,7 @@ main {
 
   .card-list .card-item .user-profession {
     font-size: 4vw;
-     font-family: "Inter", sans-serif;
+     font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
     font-weight: normal;
 
@@ -2521,7 +2521,7 @@ main {
     font-size: 4vw;
     margin: 0px 0 6px 0;
     padding: 4px 8px;
-   font-family: "Inter", sans-serif;
+   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
 
   }
