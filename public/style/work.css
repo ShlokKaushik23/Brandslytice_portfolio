@@ -1048,7 +1048,7 @@ main {
 }
 
 .about_container .about_description {
-  width: 70%; /* Ensure the description takes up 50% */
+  width: 50%; /* Ensure the description takes up 50% */
   font-family: "Poppins", sans-serif;
   font-size: 1.25vw;
   line-height: 1.17;
@@ -1101,8 +1101,8 @@ main {
 }
 
 .about_container .about_image .image_container img {
-  max-width: 400px; /* Limit the maximum width */
-  max-height: 400px; /* Limit the maximum height */
+  max-width: 500px; /* Limit the maximum width */
+  max-height: 500px; /* Limit the maximum height */
   width: 100%; /* Ensure responsiveness */
   height: auto; /* Maintain aspect ratio */
   object-fit: cover; /* Ensures proper scaling of image inside the container */
