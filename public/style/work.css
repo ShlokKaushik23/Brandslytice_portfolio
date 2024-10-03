@@ -1038,21 +1038,23 @@ main {
 
 /* ======== ABOUT CONTAINER=========== */
 .about_container {
-  display: flex;
-  justify-content: space-between; /* Ensure equal spacing */
-  align-items: start;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 48px;
+  grid-row-gap: 0px;
+  /* Ensure equal spacing */
   width: 100%;
   padding: 0 84px;
-  gap: 48px;
-  box-sizing: border-box; /* Ensures padding is included in the total width */
+  /* Ensures padding is included in the total width */
 }
 
 .about_container .about_description {
-  width: 50%; /* Ensure the description takes up 50% */
+  grid-area: 1 / 2 / 2 / 3;
   font-family: "Poppins", sans-serif;
   font-size: 1.25vw;
   line-height: 1.17;
-  box-sizing: border-box; /* Includes padding in width */
+  /* Includes padding in width */
   color: #121212;
 }
 
@@ -1081,32 +1083,34 @@ main {
   align-items: center;
   gap: 12px;
   font-size: 1.2vw;
-  border: none; /* Ensure consistent styling across browsers */
-  cursor: pointer; /* Improves UX */
+  border: none;
+  /* Ensure consistent styling across browsers */
+  cursor: pointer;
+  /* Improves UX */
 }
 
 .about_container .about_description .cv_btn button svg {
   width: 18px;
-  height: auto; /* Ensure proper scaling */
+  height: auto;
+  /* Ensure proper scaling */
 }
 
 .about_container .about_image {
-  width: 50%; /* Ensure the image container takes up 50% */
-  box-sizing: border-box;
+  grid-area: 1 / 1 / 2 / 2;
 }
 
 .about_container .about_image .image_container {
   width: 100%;
   height: auto;
+ 
 }
 
 .about_container .about_image .image_container img {
-  max-width: 500px; /* Limit the maximum width */
-  max-height: 500px; /* Limit the maximum height */
-  width: 100%; /* Ensure responsiveness */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Ensures proper scaling of image inside the container */
-  display: block; /* Removes extra spaces between images and container */
+  
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
 }
 
 
@@ -2013,73 +2017,74 @@ main {
   } */
 
 
-/* ======== ABOUT CONTAINER=========== */
-.about_container {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: start; */
-  align-items: center;
-  width: 100%;
-  padding-left: 4.688vw;
+  /* ======== ABOUT CONTAINER=========== */
+  .about_container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: center;
+    width: 100%;
+    padding-left: 4.688vw;
+    gap: 48px;
 
-}
+  }
 
-.about_container .about_description {
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  font-size: 2.25vw;
+  .about_container .about_description {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25vw;
 
-  line-height: 1.17;
+    line-height: 1.17;
 
 
-}
+  }
 
-.about_container .about_description .name {
-  font-family: 'CabinetGrotesk-Light';
+  .about_container .about_description .name {
+    font-family: 'CabinetGrotesk-Light';
 
-  font-size: 4vw;
+    font-size: 4vw;
     line-height: 4vw;
 
-}
+  }
 
-.about_container .about_description .details {
-  font-family: 'CabinetGrotesk-Light';
-  font-size: 3vw;
-  margin: 6px 0;
-  font-weight: 800;
+  .about_container .about_description .details {
+    font-family: 'CabinetGrotesk-Light';
+    font-size: 3vw;
+    margin: 6px 0;
+    font-weight: 800;
 
-}
+  }
 
-.about_container .about_description .cv_btn button{
-  margin-top: 24px;
-  padding: 12px 18px;
-  
-  gap: 12px;
-  font-size: 2.5vw;
+  .about_container .about_description .cv_btn button {
+    margin-top: 24px;
+    padding: 12px 18px;
+
+    gap: 12px;
+    font-size: 2.5vw;
 
 
-}
+  }
 
-.about_container .about_description .cv_btn button svg{
-  width: 21px;
-}
+  .about_container .about_description .cv_btn button svg {
+    width: 21px;
+  }
 
-.about_container .about_image {
-  width: 100%;
-  padding:0;
+  .about_container .about_image {
+    width: 100%;
+    padding: 0;
 
-}
+  }
 
-.about_container .about_image .image_container {
-  width: calc(100% + 4.688vw);
-  height: auto;
-}
+  .about_container .about_image .image_container {
+    width: calc(100% + 4.688vw);
+    height: auto;
+  }
 
-.about_container .about_image .image_container img {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
+  .about_container .about_image .image_container img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
 
 
 
@@ -2734,75 +2739,76 @@ main {
     border-radius: 0px;
 
   }
-/* ======== ABOUT CONTAINER=========== */
-.about_container {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: start; */
-  align-items: center;
-  padding: 0 4.688vw;
-  gap: 24px;
-  margin-bottom: 24px;
-}
 
-.about_container .about_description {
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  font-size: 4vw;
+  /* ======== ABOUT CONTAINER=========== */
+  .about_container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 0 4.688vw;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .about_container .about_description {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 4vw;
     line-height: 4.2vw;
 
 
-}
+  }
 
-.about_container .about_description .name {
-  font-family: 'CabinetGrotesk-Light';
+  .about_container .about_description .name {
+    font-family: 'CabinetGrotesk-Light';
 
-  font-size: 5.8vw;
-  line-height: 5.8vw;
-  font-weight: bold;
+    font-size: 5.8vw;
+    line-height: 5.8vw;
+    font-weight: bold;
 
-}
+  }
 
-.about_container .about_description .details {
-  font-family: 'CabinetGrotesk-Light';
-  font-size: 4.8vw;
+  .about_container .about_description .details {
+    font-family: 'CabinetGrotesk-Light';
+    font-size: 4.8vw;
     line-height: 5vw;
-  margin: 6px 0 12px 0;
-  font-weight: 900;
+    margin: 6px 0 12px 0;
+    font-weight: 900;
 
-}
+  }
 
-.about_container .about_description .cv_btn button{
-  margin-top: 24px;
-  padding: 8px 16px;
-  
-  gap: 12px;
-  font-size: 4vw;
+  .about_container .about_description .cv_btn button {
+    margin-top: 24px;
+    padding: 8px 16px;
+
+    gap: 12px;
+    font-size: 4vw;
     line-height: 4.2vw;
 
 
-}
+  }
 
-.about_container .about_description .cv_btn button svg{
-  width: 18px;
-}
+  .about_container .about_description .cv_btn button svg {
+    width: 18px;
+  }
 
-.about_container .about_image {
-  width: 100%;
-  padding:0;
+  .about_container .about_image {
+    width: 100%;
+    padding: 0;
 
-}
+  }
 
-.about_container .about_image .image_container {
-  width: calc(100%);
-  height: auto;
-}
+  .about_container .about_image .image_container {
+    width: calc(100%);
+    height: auto;
+  }
 
-.about_container .about_image .image_container img {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
+  .about_container .about_image .image_container img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
 
 
 }
