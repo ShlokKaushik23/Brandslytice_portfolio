@@ -1074,8 +1074,8 @@ main {
 }
 
 .about_container .about_description .cv_btn button {
-  margin-top: 8px;
-  padding: 6px 12px;
+  margin-top: 12px;
+  padding: 12px 12px;
   background-color: #121212;
   color: #fff;
   display: flex;
