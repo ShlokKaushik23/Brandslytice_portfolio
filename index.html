@@ -37,7 +37,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-  <link rel="preload" href="./public/images/home/portfolio_background.png" as="image">
+  <link rel="preload" href="./public/images/home/bg_img.webp" as="image">
   <link rel="preload" href="./public/images/home/shalini_portfolio_mobile.webp" as="image">
   <style>
     .lg-toolbar {
@@ -203,7 +203,7 @@
   <main class="">
 
     <section id="scroll">
-      <img src="./public/images/home/portfolio_background.png">
+      <img src="./public/images/home/bg_img.webp">
     </section>
 
     <div class="spacer"></div>
@@ -227,6 +227,7 @@
           <div>
 
             <button class="btn" onclick="navigateAndHide('#projects')">Projects</button>
+            <button class="btn" onclick="navigateAndHide('#about')">About</button>
             <button class="btn" onclick="navigateAndHide('#accomplishments')">Accomplishments</button>
             <button class="btn" onclick="navigateAndHide('#journey')">Journey</button>
             <button class="btn" onclick="navigateAndHide('#collaboration')">Collaborations</button>
@@ -971,10 +972,10 @@
 
     </section>
 
-    <section class="about_container">
+    <section class="about_container" id="about">
       <div class="about_image">
         <div class="image_container">
-          <img src="./public/images/home/Shaliniphoto.png" alt="">
+          <img src="./public/images/home/shalini_profile.png" alt="">
         </div>
       </div>
 
